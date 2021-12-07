@@ -1,0 +1,46 @@
+.blockRegestration {
+  margin-left: 450px;
+  border:2px #484848 solid;
+  width: 620px;
+  background: #E0E0E0;
+  padding: 0.5%;
+  }
+  .Regestration {
+  margin-left: -280px;
+  }
+  button {
+  border: 1px #484848 solid;
+  color: #484848 ;
+  box-shadow: 0 0 40px 40px #bdbebd inset;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+  margin-bottom: 10px;
+  }
+  
+  button:hover {
+  box-shadow: 0 0 10px 0 #9aaaba inset, 0 0 10px 4px #bdbebd;
+  }
+  .icon6{
+  position: absolute;
+  margin-top: 27px;
+  margin-left: -70px;
+  }
+  hr.vertical {
+    position: absolute;
+    background-color: #484848;
+    width: 1px;
+    height: 240px;
+    margin-top: -290px;
+    margin-left: 313px;
+  }
+  .blockEnt {
+    position: absolute;
+    text-align: center;
+    margin-top: -270px;
+    margin-left: 370px;
+  }
+  .icon7{
+    position: absolute;
+    margin-top: -253px;
+    margin-left: 180px;
+  }

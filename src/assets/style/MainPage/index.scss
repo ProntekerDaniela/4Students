@@ -1,0 +1,152 @@
+#app {
+    background-image: url(https://cdn.pixabay.com/photo/2016/09/05/15/07/concrete-1646788_960_720.jpg) ;
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: 	#484848 ;
+    margin: -8px;
+}
+.logo{
+    margin-left: -1300px;
+    padding: -130px;
+    height: 30px;
+    width: 85px;
+  }
+.pages {
+    margin-top: 10px;
+    border-radius: 4px;
+    margin-left: 20px;
+    color: 	#484848 ;
+    text-decoration: none;
+}
+.pages:hover {
+    color: #848482;
+}
+.header, .content, .footer {
+    padding: 10px;
+}
+.header, .footer {
+    border:2px #484848 solid;
+    background: #E0E0E0;
+}
+.myOffice {
+    position: absolute;
+    right: 0; 
+    margin-right: 300px;
+}
+.myRegistration {
+    position: absolute;
+    right: 0; 
+    margin-right: 145px;
+}
+.mySignIn {
+    position: absolute;
+    right: 0; 
+    margin-right: 20px;
+}
+.header {
+    padding-bottom: 0%;
+    padding-top: 1%;
+}
+a {
+    text-decoration: none;
+    color: #484848; /* Цвет обычной ссылки */
+    padding: 2px; /* Поля вокруг текста */
+  }
+  a:hover {
+    text-decoration: none; /* Убираем подчеркивание */
+    color: #fff; /* Цвет ссылки при наведении на нее курсора мыши */  
+    background: #484848; /* Цвет фона */
+  }
+    /* .content {
+    }*/
+  .footer {
+    flex: 0 0 auto;
+  } 
+  .followUs{
+    margin: 10px;
+    border:2px #484848  solid; 
+    width: 150px; 
+    position: absolute;
+    left: 0; 
+    margin-left: 550px;
+  }
+  .contacts{
+    border:2px #484848  solid; 
+    width: 250px; 
+    left: 0; 
+    margin-left: 810px;
+  }
+  .icon1{
+    position: absolute;
+    margin-top: 21px;
+    margin-left: -720px;
+  }
+  .icon2{
+    position: absolute;
+    margin-top: -5px;
+    margin-left: -120px;
+  }
+  .icon3{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: -50px;
+  }
+  .icon4{
+    position: absolute;
+    margin-top: 55px;
+    margin-left: -65px;
+  }
+  .icon5{
+    position: absolute;
+    margin-top: 90px;
+    margin-left: -65px;
+  }
+  .container_1{
+    margin-top: 20px;
+    margin-left: -230px;
+
+  }
+  .container_1 input#search{
+    width: 250px;
+    height: 40px;
+    background: #484848;
+    border:2px #484848  solid;
+    font-size: 10pt;
+    float: left;
+    color: #E0E0E0;
+    padding-left: 35px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    position:absolute;
+  }
+   .icon8{
+     position: absolute;
+    top: 50%;
+    margin-left: -107px;
+    margin-top: -250px;
+    z-index: 1;
+    color: #E0E0E0;
+  }
+  .container_1 input#search:hover, .container_1 input#search:focus, .container_1 input#search:active{
+    outline:none;
+    background: #E0E0E0;
+
+  }
+.button_1 {
+  margin-top: 12px;
+  margin-left: 380px;
+}
+.content {
+  border: 0px #484848 solid;
+
+}
+.con {
+  background: #E0E0E0;
+  width: 1000px;
+  height: 900px;
+  margin-left: 260px;
+  border: 2px solid;
+}
