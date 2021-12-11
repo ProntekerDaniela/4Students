@@ -4,7 +4,7 @@
     <div class="header">
       <router-link to="/"><img src="logo.jpg" class="logo"></router-link>
       <router-link to="/MyOffice" class="pages myOffice">Мій кабінет</router-link>
-      <router-link to="/Registration" class="pages myRegistration">Реєстрація/Увійти</router-link>
+      <router-link to="/Login" class="pages myLogin">Реєстрація/Увійти</router-link>
       <router-link to="/AboutE" class="pages mySignIn">Види добавок</router-link>
       <br>
       <br>
