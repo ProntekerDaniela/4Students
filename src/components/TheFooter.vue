@@ -45,9 +45,10 @@ footer {
     align-items: center;
     justify-content: center;
     border-top: 1px solid gray;
-    padding: 32px;
+    margin-top: 110px;
+    padding: 2px;
 
-    position: fixed;
+
     bottom: 0;
     left: 0;
 }
@@ -56,7 +57,6 @@ footer {
     display: flex;
     flex-direction: row;
     column-gap: 32px;
-
 }
 
 .col {

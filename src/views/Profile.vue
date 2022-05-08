@@ -1,6 +1,6 @@
 <template>
   <div class="profile-page">
-   <router-link to="/" tag="h2">🍔 EFood
+   <router-link to="/" tag="h2">🍔 DeFood
 
             </router-link>
     <div class="profile-form">
@@ -90,6 +90,7 @@ export default {
 
 <style scoped>
 .profile-page {
+  margin-top: 100px;
   min-width: 90%;
   display: flex;
   justify-content: center;
@@ -99,6 +100,7 @@ export default {
 }
 
 .profile-form {
+
   display: flex;
   width: 400px;
   flex-direction: column;

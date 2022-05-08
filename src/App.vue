@@ -28,7 +28,7 @@ export default {
   padding: 64px 64px;
 
   width: 100%;
-  height: 100%;
+  height: calc(100vh - 188px - 64px);
 
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
