@@ -1,18 +1,24 @@
-import MainPage from '@/pages/MainPage'
-import AboutE from '@/pages/AboutE'
-import MyOffice from '@/pages/MyOffice'
-import Login from '@/pages/Login'
-import Registration from '@/pages/Registration'
-import VueRouter from "vue-router"
+import VueRouter from "vue-router";
+
+import Home from "./views/Home.vue";
+import Login from "./views/Login.vue"
+import Register from "./views/Register.vue";
+import Profile from "./views/Profile.vue"
 
 const routes = [
-    { path: '/', component: MainPage },
-    { path: '/aboutE', component: AboutE},
-    { path: '/myOffice', component: MyOffice },
-    { path: '/Login', component: Login },
-    { path: '/Registration', component: Registration}
-]
+  { path: "/", component: Home },
+  { path: "/login", component: Login },
+  { path: "/register", component: Register },
+  { path: "/profile", component: Profile },
+  //   { path: "/bar", component: Bar },
+  {
+    path: "*",
+    redirect: "/",
+  },
+];
 
-const router = new VueRouter({routes})
+const router = new VueRouter({
+  routes,
+});
 
-export default router
+export default router;
