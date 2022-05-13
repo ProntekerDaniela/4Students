@@ -45,7 +45,7 @@ footer {
     align-items: center;
     justify-content: center;
     border-top: 1px solid gray;
-    margin-top: 110px;
+    margin-top: 300px;
     padding: 2px;
 
 

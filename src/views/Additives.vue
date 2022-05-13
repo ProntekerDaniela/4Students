@@ -78,11 +78,12 @@ export default {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  row-gap: 16px;
+  row-gap: 70px;
   align-items: center;
 }
 
 .search-form {
+  margin-top: 260px ;
   display: flex;
   justify-content: center;
   flex-direction: column;

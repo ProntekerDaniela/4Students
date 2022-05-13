@@ -32,17 +32,19 @@ export default {
 
 <style scoped>
 .danger{
-  background: red;
+  background: Red;
+  text-decoration: underline;
 }
 .safe{
   background: greenyellow;
+  text-decoration: underline;
 }
 .product-card {
-  border-radius: 4px;
+  border-radius: 10px;
   display: flex;
-  padding: 8px;
+  padding: 6px;
   column-gap: 16px;
-  border: 1px solid #424242;
+  border: 2px solid #424242;
   width: 100%;
   background: white;
 }
